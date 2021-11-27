@@ -2,8 +2,10 @@ $(document).ready(function(){
     $(window).scroll(function(){
         if(this.scrollY > 20){
             $('.navbar').addClass("sticky");
+            $('.navbar .logo a').css('font-size', '20px');
         }else{  
             $('.navbar').removeClass("sticky");
+            $('.navbar .logo a').css('font-size', '35px');
         }
     });
 
@@ -16,4 +18,5 @@ $(document).ready(function(){
         $('.menu-btn img').toggleClass('active');
     })
 
+ 
 });
