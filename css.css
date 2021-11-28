@@ -75,7 +75,7 @@
 
 .home{
     display: flex;
-    background: url("images/banner1.jpg") center;
+    background: url("images/banner1.jpg") repeat center;
     height: 100vh ;
     color: #fff;
     min-height: 500px;
