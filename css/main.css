@@ -300,7 +300,7 @@ section{
 .skills{
     width: 100%;
     height: auto;
-    background: url("../images/banner1.jpg") repeat center;
+    background: url("../images/banner1.jpg") no-repeat center;
     background-attachment: fixed;
 }
 .skills .skill-bar{
